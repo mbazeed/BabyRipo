@@ -3,6 +3,6 @@ node{
     git "https://github.com/devops5ab/BabyAppRepo.git"
   }
   stage("Build and package"){
-    sh "/opt/apache-maven-3.6.0/bin/mvn packges"
+    sh "/opt/apache-maven-3.6.0/bin/mvn packages"
   }
 }
