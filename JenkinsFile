@@ -3,6 +3,6 @@ node{
     git "https://github.com/devops5ab/BabyAppRepo.git"
   }
   stage("Build and package"){
-    mvn packges
+    sh "mvn packge"
   }
 }
