@@ -1,0 +1,5 @@
+node{
+  stage("clone from git"){
+    git "https://github.com/devops5ab/BabyAppRepo.git"
+  }
+}
